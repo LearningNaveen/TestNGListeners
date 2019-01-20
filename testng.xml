@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="testNG_Selenium_Suite">
+<listeners>
+	<!--  <listener class-name="testNG_Listeners.RetryAnalyzer"/> -->   <!--   When trying for class level implementation -->
+	<listener class-name="testNgListeners.Transformer"/>
+</listeners>
+
+
+  <test name="TestTestNG_Listeners">
+    <classes>
+      <class name="listenerTest.RetryAnalyzerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
