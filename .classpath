@@ -23,6 +23,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="H:/Java_Practice/Selenium/selenium-server-standalone-3.0.1.jar"/>
 	<classpathentry kind="lib" path="H:/Java_Practice/Jars/Apache POI 3.9/poi-3.9/lib/commons-codec-1.5.jar"/>
 	<classpathentry kind="lib" path="H:/Java_Practice/Jars/Apache POI 3.9/poi-3.9/lib/commons-logging-1.1.jar"/>
